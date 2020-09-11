@@ -1,0 +1,14 @@
+# /etc/systemd/system/naive.service
+[Unit]
+Description=NaiveProxy Server Service
+Documentation=https://github.com/klzgrad/naiveproxy
+After=network-online.target
+
+[Service]
+Type=simple
+User=nobody
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+ExecStart=/usr/local/bin/naive /etc/naive/config.json
+
+[Install]
+WantedBy=multi-user.target
