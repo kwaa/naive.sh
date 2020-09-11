@@ -98,9 +98,9 @@ while :
 do
     clear
     echo "/* ----------------------------------------------------*"
-    echo "* naive.sh  v0.200909                                  *"
+    echo "* naive.sh  v0.200912                                  *"
     echo "* created by kwaa                                      *"
-    echo "* intro: https://kwaa.dev/naive-sh                     *"
+    echo "* intro: https://kwaa.dev/p/naive-sh                   *"
     echo "* source: https://github.com/kwaa/naive.sh             *"
     echo "* --------------------------------------------------- */"
     echo "最新版本:" ${github_version}
