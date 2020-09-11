@@ -16,8 +16,8 @@ Linux, x86 或 x86_64
 ## 如何使用
 
 ``` bash
-wget -qO- https://git.io/naive.sh | bash #正常模式
-wget -qO- https://git.io/naive.sh | bash update #自动更新naiveproxy
+bash <(wget -qO- https://git.io/naive.sh) #正常模式
+bash <(wget -qO- https://git.io/naive.sh) update #自动更新naiveproxy
 ```
 
 ## 待做
